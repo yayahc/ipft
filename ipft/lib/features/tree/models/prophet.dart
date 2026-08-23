@@ -1,13 +1,15 @@
 import 'person.dart';
 
-class ProphetModel extends PersonModel {
+class Prophet extends Person {
   final String sentTo;
   final int mentionedCountInTheQuran;
-  ProphetModel({
+  Prophet({
     required super.name,
     required super.arabicName,
-    required super.age,
     required this.sentTo,
+    required super.fathersIds,
+    required super.mothersIds,
+    required super.brotherAndSisterIds,
     required this.mentionedCountInTheQuran,
   }) : assert(sentTo.isNotEmpty, 'Sent to cannot be empty'),
        assert(

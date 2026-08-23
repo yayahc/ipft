@@ -1,11 +1,17 @@
-class PersonModel {
+class Person {
   final String name;
   final String arabicName;
+  final List<String> fathersIds;
+  final List<String> mothersIds;
+  final List<String> brotherAndSisterIds;
   String? latinName;
-  final int age;
 
-  PersonModel({required this.name, required this.arabicName, required this.age})
-    : assert(name.isNotEmpty, 'Name cannot be empty'),
-      assert(arabicName.isNotEmpty, 'Arabic name cannot be empty'),
-      assert(age >= 0, 'Age cannot be negative');
+  Person({
+    required this.name,
+    required this.arabicName,
+    required this.fathersIds,
+    required this.mothersIds,
+    required this.brotherAndSisterIds,
+  }) : assert(name.isNotEmpty, 'Name cannot be empty'),
+       assert(arabicName.isNotEmpty, 'Arabic name cannot be empty');
 }
