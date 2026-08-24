@@ -11,6 +11,9 @@ class Prophet extends Person {
     required super.mothersIds,
     required super.brotherAndSisterIds,
     required this.mentionedCountInTheQuran,
+    super.wifeIds,
+    super.husbandId,
+    required super.latinName,
   }) : assert(sentTo.isNotEmpty, 'Sent to cannot be empty'),
        assert(
          mentionedCountInTheQuran >= 0,
