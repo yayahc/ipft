@@ -22,4 +22,14 @@ final List<Prophet> prophets = [
     brotherAndSisterIds: [],
     mentionedCountInTheQuran: 2,
   ),
+  Prophet(
+    name: 'Nuh',
+    latinName: 'Noah',
+    arabicName: 'نوح',
+    sentTo: 'Earth',
+    fathersIds: ["Lamik"],
+    mothersIds: [],
+    brotherAndSisterIds: [],
+    mentionedCountInTheQuran: 43,
+  ),
 ];
