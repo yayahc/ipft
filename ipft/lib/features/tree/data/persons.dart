@@ -133,11 +133,11 @@ List<Person> persons = [
     latinName: "Eram",
   ),
   Person(
-    name: name,
-    arabicName: arabicName,
-    fathersIds: fathersIds,
-    mothersIds: mothersIds,
-    brotherAndSisterIds: brotherAndSisterIds,
-    latinName: latinName,
+    name: "Shalikh",
+    arabicName: "شَلَخ",
+    fathersIds: ["Arfakhshad"],
+    mothersIds: [],
+    brotherAndSisterIds: [],
+    latinName: "Shalakh",
   ),
 ];
